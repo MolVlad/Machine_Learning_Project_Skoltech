@@ -14,6 +14,16 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 - `Experiments.ipynb` -- main code for the pipelines of experiments; contains all implemented functions for adding noise, introducing missing values, imputing missing values, evaluating models and so on;
 - `Results processing.ipynb` -- notebook for processing obtained results and building graphs and diagrams;
 
+### Code
+We used `Python 3.7.9` and the following versions of the libraries:
+- `numpy 1.21.5`
+- `pandas 1.3.3`
+- `scipy 1.7.3`
+- `sklearn 1.0.2`
+- `matplotlib 3.3.2`
+- `lightgbm 3.3.2`
+- `miceforest 5.3.0`
+
 ### Datasets
 - `/Raw datasets` -- raw datasets for both regression and classification problems with links to the sources;
 - `/Datasets` -- processed datasets for both regression and classification problems; for convenience, the directory is divided into two parts: `Classification` with datasets for classification problem and `Regression` with datasets for regression problem; in total, there are 2 datasets for classification and 3 datasets for classification.

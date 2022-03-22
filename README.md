@@ -89,6 +89,7 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 </p>
 
 ## Credits
+- [LightGBM](https://github.com/Microsoft/LightGBM/blob/master/docs/index.rst) - Gradient Boosting implementation;
 - [miceforest](https://github.com/AnotherSamWilson/miceforest.git) - MICE implemetation;
 - [adasegroup](https://github.com/adasegroup) - ML course at Skoltech;
 - [Wasserstein2GenerativeNetworks](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks/) - used example of good repo structure;

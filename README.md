@@ -7,7 +7,7 @@ This repository contains reproducible `python` source code for the final project
 - Zhadyraiym Akunova
 
 ## Repository structure
-All the experiments are issued in the form of pretty self-explanatory jupyter notebooks. For convenience, raw and processed datasets used in the experiments are placed in this repository as well. The structure of the repository should be preserved in order to run all code in notebooks without changing relative paths to the files.
+All the experiments are issued in the form of pretty self-explanatory jupyter notebooks. For convenience, raw and processed datasets used in the experiments are placed in this repository as well. The structure of the repository should be preserved in order to run all code in notebooks without changing relative paths to the files. Obtained results are included into repository as `.csv` files and `.png` graphs and diagrams. For proper display of the pictures in this README, we recommend to switch to the Light theme in GitHub settings.
 
 ### Code
 - `Data preprocessing.ipynb` -- preprocessing of raw datasets: drop missing values and useless columns, rename target as `Target`;

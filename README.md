@@ -20,13 +20,13 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 
 #### Table with the description of the datasets
 
-| # |        Name       |     Problem    |                   Description                   |    Shape   |                Target                |
+| # |        Dataset name       |     Problem    |                   Description                   |    Shape   |                Target                |
 |:-:|:-----------------:|:--------------:|:-----------------------------------------------:|:----------:|:------------------------------------:|
-| 1 |  Air temperatures |   Regression   |     Predict air temperature by external data    | (7588, 23) |    Min value  17.4 Max value  38.9   |
-| 2 |    Air quality    |   Regression   |       Identify air quality by sensors data      |  (827, 13) |     Min value  0.4 Max value 1.5     |
-| 3 | Parkinson disease |   Regression   | Predict Parkinson disease by voice measurements | (5875, 22) |       Min value 7 Max value  55      |
-| 4 |    Wine quality   | Classification |  Identify wine quality by physicochemical tests | (4898, 12) |  7 classes, from 5 to 2198 elements  |
-| 5 |  Robot's sensors  | Classification |          Predict action by sensors data         | (5455, 25) | 4 classes, from 328 to 2205 elements |
+| 1 |  [Air temperatures](https://archive.ics.uci.edu/ml/datasets/Bias+correction+of+numerical+prediction+model+temperature+forecast) |   Regression   |     Predict air temperature by external data    | (7588, 23) |    Min value  17.4 Max value  38.9   |
+| 2 |    [Air quality](https://archive.ics.uci.edu/ml/datasets/Air+Quality)    |   Regression   |       Identify air quality by sensors data      |  (827, 13) |     Min value  0.4 Max value 1.5     |
+| 3 | [Parkinson disease](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) |   Regression   | Predict Parkinson disease by voice measurements | (5875, 22) |       Min value 7 Max value  55      |
+| 4 |    [Wine quality](https://archive.ics.uci.edu/ml/datasets/wine+quality)   | Classification |  Identify wine quality by physicochemical tests | (4898, 12) |  7 classes, from 5 to 2198 elements  |
+| 5 |  [Robot's sensors](https://archive.ics.uci.edu/ml/datasets/Wall-Following+Robot+Navigation+Data)  | Classification |          Predict action by sensors data         | (5455, 25) | 4 classes, from 328 to 2205 elements |
 
 ### Results
 - `/Results` -- `.csv` files with the results of carried out experiments; contains 3 files: `results_noise_only.csv` for experiments with noise only, `results_drop_only.csv` for experiments with missing values only, and `results_noise_and_drop.csv` for experiments with both noise and missing values;
@@ -45,11 +45,11 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 
 |   | Dataset name      | Problem         | Score name | Linear | DT   | RF   | LightGBM |
 |---|-------------------|-----------------|------------|--------|------|------|----------|
-| 1 | Air temperatures  | Regression      | MAPE       | 0.04   | 0.05 | 0.04 | 0.04     |
-| 2 | Air quality       | Regression      | MAPE       | 0.06   | 0.10 | 0.08 | 0.06     |
-| 3 | Parkinson disease | Regression      | MAPE       | 0.11   | 0.12 | 0.11 | 0.11     |
-| 4 | Wine quality      | Classification  | F1-micro   | 0.52   | 0.51 | 0.53 | 0.52     |
-| 5 | Robot’s sensors   | Classificationч | F1-micro   | 0.68   | 0.98 | 0.99 | 0.99     |
+| 1 | [Air temperatures](https://archive.ics.uci.edu/ml/datasets/Bias+correction+of+numerical+prediction+model+temperature+forecast)  | Regression      | MAPE       | 0.04   | 0.05 | 0.04 | 0.04     |
+| 2 | [Air quality](https://archive.ics.uci.edu/ml/datasets/Air+Quality)       | Regression      | MAPE       | 0.06   | 0.10 | 0.08 | 0.06     |
+| 3 | [Parkinson disease](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) | Regression      | MAPE       | 0.11   | 0.12 | 0.11 | 0.11     |
+| 4 | [Wine quality](https://archive.ics.uci.edu/ml/datasets/wine+quality)      | Classification  | F1-micro   | 0.52   | 0.51 | 0.53 | 0.52     |
+| 5 | [Robot’s sensors](https://archive.ics.uci.edu/ml/datasets/Wall-Following+Robot+Navigation+Data)   | Classificationч | F1-micro   | 0.68   | 0.98 | 0.99 | 0.99     |
 
 ### Pipeline 2/4 -- experiments with datasets containing only noise
 

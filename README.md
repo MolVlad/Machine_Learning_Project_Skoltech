@@ -7,12 +7,22 @@ This repository contains reproducible `python` source code for the final project
 - Zhadyraiym Akunova
 
 ## Repository structure
-All the experiments are issued in the form of pretty self-explanatory jupyter notebooks. For convenience, raw and processed datasets used in the experiments are placed in this repository as well. The structure of the repository should be preserved in order to run all code in notebooks without changing relative paths to the files.
+All the experiments are issued in the form of pretty self-explanatory jupyter notebooks. For convenience, raw and processed datasets used in the experiments are placed in this repository as well. The structure of the repository should be preserved in order to run all code in notebooks without changing relative paths to the files. Obtained results are included into repository as `.csv` files and `.png` graphs and diagrams. For proper display of the pictures in this README, we recommend to switch to the Light theme in GitHub settings.
 
 ### Code
 - `Data preprocessing.ipynb` -- preprocessing of raw datasets: drop missing values and useless columns, rename target as `Target`;
 - `Experiments.ipynb` -- main code for the pipelines of experiments; contains all implemented functions for adding noise, introducing missing values, imputing missing values, evaluating models and so on;
 - `Results processing.ipynb` -- notebook for processing obtained results and building graphs and diagrams;
+
+### Code
+We used `Python 3.7.9` and the following versions of the libraries:
+- `numpy 1.21.5`
+- `pandas 1.3.3`
+- `scipy 1.7.3`
+- `sklearn 1.0.2`
+- `matplotlib 3.3.2`
+- `lightgbm 3.3.2`
+- `miceforest 5.3.0`
 
 ### Datasets
 - `/Raw datasets` -- raw datasets for both regression and classification problems with links to the sources;
@@ -89,6 +99,7 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 </p>
 
 ## Credits
+- [LightGBM](https://github.com/Microsoft/LightGBM/blob/master/docs/index.rst) - Gradient Boosting implementation;
 - [miceforest](https://github.com/AnotherSamWilson/miceforest.git) - MICE implemetation;
 - [adasegroup](https://github.com/adasegroup) - ML course at Skoltech;
 - [Wasserstein2GenerativeNetworks](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks/) - used example of good repo structure;

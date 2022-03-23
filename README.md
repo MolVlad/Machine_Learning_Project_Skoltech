@@ -14,7 +14,7 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 - `Experiments.ipynb` -- main code for the pipelines of experiments; contains all implemented functions for adding noise, introducing missing values, imputing missing values, evaluating models and so on;
 - `Results processing.ipynb` -- notebook for processing obtained results and building graphs and diagrams;
 
-### Code
+### Requirements
 We used `Python 3.7.9` and the following versions of the libraries:
 - `numpy 1.21.5`
 - `pandas 1.3.3`
@@ -45,6 +45,10 @@ We used `Python 3.7.9` and the following versions of the libraries:
 2. `drop4model_reg_T_dataset_N_drop_L_model_K.png` -- dependency of distortion metrics on the rate of introduced missing values , where `L` is `1`, `2`, or `3` for different missing scenarios (Missing Completely At Random (MCAR), Missing At Random (MAR), Not Missing At Random (NMAR), respectively), `K` is ML model number;
 3. `drop_diagram_reg_T_dataset_N.png` -- radar diagrams for comparing different imputation methods in different missing scenarios;
 4. `noisy_drop_diagram_reg_T_dataset_N_noise_Z_S.png` -- radar diagrams for comparing different imputation methods in different missing scenarios with different level of noise, where `Z` is `1` for AWGN and `2` for random changing, `S` is level of noise in decibels or in dropping probability, respectively.
+
+### Other
+- `Report.pdf` -- written report
+- `Presentation.pdf` -- presentation
 
 ## Experiments
 ### Pipeline 1/4 -- experiments with initial datasets without distortions
